@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Cowboy Bebop</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/logo.jpg" alt="Logo Cowboy Bebop">
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="episodios.html">Episodios</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li>
+                    <div class="desplegable">
+                        <button id="botonmenu">Extra</button>
+                        <div class="contenido">
+                            <a href="themovie.html">The Movie</a>
+                            <a href="liveaction.html">Live Action</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article>
+            
+            <h1>Welcome Space Cowboy!</h1>
+        
+            <img src="images/11.jpg" alt="Home Image" id="image">  
+        
+            <p>
+                Ambientada en el año 2071, "Cowboy Bebop" sigue las aventuras de un grupo de cazarrecompensas que viajan a través del sistema solar en la nave espacial Bebop. A pesar de que cada episodio tiene su propia historia, hay un arco narrativo más amplio que se desarrolla a lo largo de la serie, centrándose en el pasado de los personajes.
+                La serie se caracteriza por mezclar una variedad de géneros, desde acción y ciencia ficción hasta drama y comedia. La música, compuesta por Yoko Kanno y interpretada por la banda The Seatbelts, juega un papel crucial en la serie y es altamente aclamada.
+                "Cowboy Bebop" explora temas profundos como la soledad, la existencia, y el pasado, mientras que al mismo tiempo presenta episodios llenos de acción y aventura. A lo largo de la serie, los personajes enfrentan sus propios demonios y pasados, buscando significado y propósito en un mundo que a menudo parece indiferente.
+                La serie culmina en un enfrentamiento entre Spike y Vicious, poniendo fin a un viejo rencor y dando cierre a las historias de los personajes principales.
+            </p>
+            
+        </article>
+    </section>
+    <footer>
+        <div>
+            <p>TV Tokyo, WOWOW </p>
+        </div>
+        <div>
+            <img src="images/redes/facebook.png" alt="Facebook">
+            <img src="images/redes/twitter.png" alt="Twitter">
+            <img src="images/redes/youtube.png" alt="Youtube">
+            <img src="images/redes/instagram.png" alt="Instagram">
+        </div>
+        <div>
+            <p>Cowboy Bebop カウボーイビバップ</p>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+</body>
+</html>
