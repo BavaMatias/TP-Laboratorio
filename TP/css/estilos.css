@@ -94,7 +94,7 @@ ul li a:hover{
 
 .icon { display: none; }
 
-/*mirar bien esto*/
+
 #botonmenu{
 	text-align: center;
 	padding-left: 10px;
@@ -133,7 +133,7 @@ ul li a:hover{
 .desplegable:hover .contenido{
 	display: block;
 }
-/**/
+
 
 nav ul{
 	display: flex;
@@ -242,7 +242,16 @@ span{
 		max-width: 100%;
 	}
 
-	
+	li div{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width:100%;
+	}
+	li div img{
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 	header{
 		align-items: center;
@@ -278,6 +287,14 @@ span{
 		display: block;
 	}
 
+	nav.responsive li div div a{
+		display: block;
+		text-align: center;
+		padding: 0.5rem;
+		background-color: white;
+		border:solid black 1px;
+	}
+
 	nav.responsive ul li {
 		display: block;
 		text-align: center;
@@ -297,74 +314,3 @@ span{
 	}
 }
 
-/*@media (max-width: 480px) {
-header{
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	background-color: #ffffff;
-	position: sticky;
-	top: 0;
-	z-index: 1;
-}
-header div, header a {
-	flex: 1 0 50%;
-}
-header nav {
-	flex-basis: 100%;
-}
-.icon {
-	display: block;
-	padding-right: 0.6rem;
-	text-align: right;
-}
-nav ul {
-	display: none;
-}
-nav.responsive ul {
-	display: block;
-}
-nav.responsive ul li {
-	display: block;
-	text-align: center;
-	padding: 0.5rem;
-}
-nav.responsive ul li a {
-	padding-right: 0;
-}
-section{
-	max-width: 480px;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-.principal{
-	height: 250px;
-	padding: 10%;
-}
-.secundario{
-	margin-top: 1%;
-	display: block;
-}
-.secundario div{
-	margin-right: auto;
-	margin-left: auto;
-	width: 90%;
-}
-.secundario div a img{
-	margin-bottom: 1rem;
-}
-h2{
-	font-size: 1rem;
-}
-h4{
-	font-size: 1rem;
-}
-footer{
-	height: 80px;
-	justify-content: space-evenly;
-}
-footer img{
-	max-width: 3rem;
-}
-}*/
